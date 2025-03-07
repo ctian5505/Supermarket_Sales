@@ -164,9 +164,15 @@ SELECT
 
 *Upload the query and clean*
 
-### Creating the date table 
+### Adding date table
 ```R
-Calendar = CALENDAR(MIN(Fact_Sales[Date]), MAX(Fact_Sales[Date])) 
+Calendar = CALENDAR(MIN(Fact_Sales[Date]), MAX(Fact_Sales[Date]))
+
+Year = FORMAT('Calendar'[Date], "yyyy")
+
+Month = FORMAT('Calendar'[Date], "Mmm")
+
+MonthNo = FORMAT('Calendar'[Date], "m") 
 ```
 
 
