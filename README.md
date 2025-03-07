@@ -164,4 +164,9 @@ SELECT
 
 *Upload the query and clean*
 
+### Creating the date table 
+```pbi
+Calendar = CALENDAR(MIN(Fact_Sales[Date]), MAX(Fact_Sales[Date])) 
+```
+
 
