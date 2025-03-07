@@ -18,7 +18,7 @@
 ```
 
 ## STEP 2 : Uploading into SSMS
-###Create database
+### Create database
 ```sql
 -- Creating Database
 CREATE DATABASE Supermarket_Sales
