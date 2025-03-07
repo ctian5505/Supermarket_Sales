@@ -159,9 +159,8 @@ SELECT
 	supermarket_sales
 ```
 
-
-
-
-
+## STEP 3 : Power BI
+![Power Query](https://github.com/ctian5505/Supermarket_Sales/blob/main/Screenshot%202025-03-07%20163630.png)
+*Upload the query and clean*
 
 
