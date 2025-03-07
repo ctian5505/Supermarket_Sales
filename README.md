@@ -164,7 +164,7 @@ SELECT
 
 *Upload the query and clean*
 
-### Adding date table
+### Adding date table (Table View)
 ```R
 Calendar = CALENDAR(MIN(Fact_Sales[Date]), MAX(Fact_Sales[Date]))
 
@@ -172,7 +172,8 @@ Year = FORMAT('Calendar'[Date], "yyyy")
 
 Month = FORMAT('Calendar'[Date], "Mmm")
 
-MonthNo = FORMAT('Calendar'[Date], "m") 
+MonthNo = FORMAT('Calendar'[Date], "m") //Use to sort the month
 ```
 
-
+### Creating Relationship (Model View)
+![Relationships Model View](https://github.com/ctian5505/Supermarket_Sales/blob/main/relationship.png)
