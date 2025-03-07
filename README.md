@@ -177,3 +177,53 @@ MonthNo = FORMAT('Calendar'[Date], "m") //Use to sort the month
 
 ### Creating Relationship (Model View)
 ![Relationships Model View](https://github.com/ctian5505/Supermarket_Sales/blob/main/relationship.png)
+
+### Creating Measures 
+```R
+Average_Rating = AVERAGE(Fact_Sales[Rating])
+
+// Calculate the average rating
+```
+
+
+```R
+Branch_Count = COUNT(Dim_Branch[Branch]) 
+
+// Count the branch
+```
+
+```R
+Full_Date_Name = FORMAT(SELECTEDVALUE('Calendar'[Date]), "Mmmm dd yyyy")
+
+// Display the full date name (used in tool tip)
+```
+
+```R
+Gross_Income = SUM(Fact_Sales[gross_income])
+
+// Calculate the gross income
+```
+
+```R
+Product_Count = COUNT(Dim_Product_Line[Product_line]) 
+
+// Count the product
+```
+
+```R
+Quantity_Sold = SUM(Fact_Sales[Quantity]) 
+
+// Calculate the total quantity sold
+```
+
+```R
+Revenue = SUM(Fact_Sales[Total]) 
+
+// Calculate the total revenue
+```
+
+```R
+Transaction_Count = COUNT(Fact_Sales[Invoice_ID])
+
+// Count the transaction
+```
