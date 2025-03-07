@@ -13,6 +13,9 @@
 ```
 
 ## STEP 1 : Downloading datasets
+```
+  - Download the dataset [https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales], saved as CSV
+```
 
 ## STEP 2 : Uploading into SSMS
   
