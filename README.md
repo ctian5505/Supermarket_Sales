@@ -230,6 +230,14 @@ Transaction_Count = COUNT(Fact_Sales[Invoice_ID])
 *Adding Reset Button Using Bookmark*
 ![Reset](https://github.com/ctian5505/Supermarket_Sales/blob/main/Default.png)
 
+*Adding Tool Tip*
+![Daily Sales Tool Tip](https://github.com/ctian5505/Supermarket_Sales/blob/main/Daily_Sales_Tp.png)
+![Daily Sales Tool Tip](https://github.com/ctian5505/Supermarket_Sales/blob/main/Revenue%20by%20Product%20Line%20TP.png)
+![Daily Sales Tool Tip](https://github.com/ctian5505/Supermarket_Sales/blob/main/Revenue%20by%20City%20TP.png)
+![Daily Sales Tool Tip](https://github.com/ctian5505/Supermarket_Sales/blob/main/TP%20ALL.png)
 
-### Final Output
+
+
+
+# Final Output
 ![Super Market Sales Dashboard](https://github.com/ctian5505/Supermarket_Sales/blob/main/Supermarket%20sales_page-0001.jpg)
