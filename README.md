@@ -227,6 +227,9 @@ Transaction_Count = COUNT(Fact_Sales[Invoice_ID])
 
 // Count the transaction
 ```
+*Adding Reset Button Using Bookmark*
+![Reset](https://github.com/ctian5505/Supermarket_Sales/blob/main/Default.png)
+
 
 ### Final Output
 ![Super Market Sales Dashboard](https://github.com/ctian5505/Supermarket_Sales/blob/main/Supermarket%20sales_page-0001.jpg)
