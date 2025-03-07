@@ -25,4 +25,4 @@ CREATE DATABASE Supermarket_Sales
 ```
 ### - Uploading the CSV file into SSMS as Flat File 
 
-### The file consists of a single table, which is not well-structured because all data is stored in one place. I want to optimize it by designing a proper schema with fact and dimension tables. I also need an SQL query to implement this optimization.
+*The file consists of a single table, which is not well-structured because all data is stored in one place. I want to optimize it by designing a proper schema with fact and dimension tables. I also need an SQL query to implement this optimization.*
