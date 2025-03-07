@@ -10,5 +10,9 @@
 - Upload the data into SQL Server Management Server (SSMS)
 - Create a query and upload to POWER BI
 - Create a dashboard
-
 ```
+
+## STEP 1 : Downloading datasets
+
+## STEP 2 : Uploading into SSMS
+  
