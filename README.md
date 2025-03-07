@@ -18,4 +18,11 @@
 ```
 
 ## STEP 2 : Uploading into SSMS
-  
+```
+  - Create a database
+```sql
+CREATE DATABASE Supermarket_Sales
+```
+
+
+```
